@@ -226,3 +226,44 @@ video {
 .cards:hover {
   transform: rotate3d(-1, 1, 0, 20deg);
 }
+
+#page3 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#contact > h2{
+  font-size: 40px;
+}
+
+#contact > p{
+  font-size: 25px;
+  text-align: center;
+}
+
+#contact{
+  line-height: 45px;
+}
+
+#page3 img{
+  position: absolute;
+  height: 50px;
+}
+
+#page3 #colon1{
+  left: 7%;
+  top: 20%;
+}
+
+#page3 #colon2{
+  right: 7%;
+  bottom: 20%;
+}
+
+#nav-items > a{
+  text-decoration: none;
+}
