@@ -115,6 +115,7 @@ video {
   from {
     transform: translateX(0);
   }
+
   to {
     transform: translateX(-100%);
   }
@@ -220,9 +221,11 @@ video {
   font-size: 15px;
   color: black;
 }
+
 .cards:hover .overlay {
   opacity: 1;
 }
+
 .cards:hover {
   transform: rotate3d(-1, 1, 0, 20deg);
 }
@@ -236,34 +239,93 @@ video {
   position: relative;
 }
 
-#contact > h2{
+#contact>h2 {
   font-size: 40px;
 }
 
-#contact > p{
+#contact>p {
   font-size: 25px;
   text-align: center;
 }
 
-#contact{
+#contact {
   line-height: 45px;
 }
 
-#page3 img{
+#page3 img {
   position: absolute;
   height: 50px;
 }
 
-#page3 #colon1{
-  left: 7%;
-  top: 20%;
+#page3 #colon1 {
+  left: 10%;
+  top: 30%;
 }
 
-#page3 #colon2{
-  right: 7%;
-  bottom: 20%;
+#page3 #colon2 {
+  right: 10%;
+  bottom: 30%;
 }
 
-#nav-items > a{
+#nav-items>a {
   text-decoration: none;
+}
+
+#footer {
+  height: 35vh;
+  width: 100%;
+  background: #119f3a;
+  background: linear-gradient(to left bottom, #119f3a, #ace022);
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 70px;
+  padding-top: 40px;
+
+}
+
+#footer>img {
+  height: 80%;
+  position: absolute;
+  left: 1%;
+  top: 7%;
+}
+
+#logo>h1 {
+  font-size: 50px;
+  color: black;
+}
+
+#address>p {
+  font-size: 25px;
+  color: black;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
+#follow>p {
+  font-weight: 700;
+  font-size: 25px;
+  color: black;
+  line-height: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+#follow>a>i {
+  color: black;
+  font-size: 35px;
+  padding-left: 15px;
+}
+
+#follow>a {
+  text-decoration: none;
+}
+
+#address>a {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
 }
