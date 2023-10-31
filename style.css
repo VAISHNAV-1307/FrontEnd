@@ -329,3 +329,149 @@ video {
   font-weight: 700;
   font-family: "Poppins", sans-serif;
 }
+
+@media (max-width:600px) {
+  #nav {
+    height: 90px;
+    justify-content: space-between;
+    padding: 0 0 0 20px;
+    font-size: 13px;
+  }
+
+  #nav-items {
+    gap: 20px;
+    padding-right: 50px;
+  }
+
+  #page1 h1 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  #about-us {
+    height: 100%;
+    padding: 0 0;
+    margin-top: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+
+  #about-us-in {
+    width: 80%;
+  }
+
+  #near-by-places h3 {
+    margin-top: 50px;
+  }
+
+  #cards-container {
+    height: 80vh;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .cards {
+    height: 100%;
+    width: 70%;
+  }
+
+  #card1 {
+    background-image: url(https://lh3.googleusercontent.com/p/AF1QipNdDkETgFeTb6H7UPxzYe_Lclb1ErbW5MnuDgqy=s1360-w1360-h1020);
+  }
+
+  #card2 {
+    background-image: url(https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcQqJtoZ4j4k4u3-8ME_jbk8vwQ6p0e54DejmEllZlxEdWsRgd5UbZRFSj8AChNRI2yC);
+  }
+
+  #card3 {
+    background-image: url(https://lh3.googleusercontent.com/p/AF1QipOkkE5SujdmV6Nxo0QCrt2gWrRfhpCz4DKRttjv=s1360-w1360-h1020);
+  }
+
+  .overlay {
+    padding: 12px 0 0 20px;
+  }
+
+  .overlay h4 {
+    font-size: 12px;
+  }
+
+  .overlay p {
+    font-size: 10px;
+  }
+
+  #page3 {
+    text-align: center;
+  }
+
+  #contact>h2 {
+    font-size: 30px;
+    padding: 0 20px 0 20px;
+  }
+
+  #contact>p {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  #contact {
+    line-height: 35px;
+  }
+
+  #page3 img {
+    position: absolute;
+    height: 40px;
+  }
+
+  #footer {
+    height: 50vh;
+    flex-direction: column;
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+
+  #footer>img {
+    display: none;
+  }
+
+  #logo>h1 {
+    font-size: 40px;
+    color: black;
+  }
+
+  #address>p {
+    font-size: 25px;
+    color: black;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  }
+
+  #follow>p {
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+    line-height: 50px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  #follow>a>i {
+    color: black;
+    font-size: 35px;
+    padding-left: 15px;
+  }
+
+  #follow>a {
+    text-decoration: none;
+  }
+
+  #address>a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  }
+}
