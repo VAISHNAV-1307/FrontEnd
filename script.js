@@ -5,7 +5,7 @@ gsap.to("#nav", {
   scrollTrigger: {
     trigger: "#nav",
     scroller: "body",
-    start: "top -10%",
+    start: "top -2%",
     end: "top -11%",
     scrub: 1,
   },
