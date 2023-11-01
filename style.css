@@ -6,24 +6,18 @@
   font-family: "Montserrat", sans-serif;
   /* font-family: "Poppins", sans-serif; */
   font-weight: 600; 
-  overflow-x: hidden;
-}
-
-*::-webkit-scrollbar {
-display: none;
 }
 
 html,
 body {
   height: 100%;
   width: 100vw;
-  /* perspective: 800px; */
+  overflow-x: hidden;
 }
 
 #nav {
   height: 90px;
   width: 100%;
-  /* background-color: red; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -484,7 +478,7 @@ video {
     }
   
     #page3 #colon2 {
-      right: 10%;
-      bottom: 30%;
+      right: 2%;
+      bottom: 25%;
     }
 }
