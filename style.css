@@ -5,8 +5,12 @@
   color: #fff;
   font-family: "Montserrat", sans-serif;
   /* font-family: "Poppins", sans-serif; */
-  font-weight: 600;
+  font-weight: 600; 
   overflow-x: hidden;
+}
+
+*::-webkit-scrollbar {
+display: none;
 }
 
 html,
@@ -473,4 +477,14 @@ video {
   #follow>a {
     text-decoration: none;
   }
+
+    #page3 #colon1 {
+      left: 2%;
+      top: 25%;
+    }
+  
+    #page3 #colon2 {
+      right: 10%;
+      bottom: 30%;
+    }
 }
