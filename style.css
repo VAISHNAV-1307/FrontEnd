@@ -6,12 +6,13 @@
   font-family: "Montserrat", sans-serif;
   /* font-family: "Poppins", sans-serif; */
   font-weight: 600;
+  overflow-x: hidden;
 }
 
 html,
 body {
   height: 100%;
-  width: 100%;
+  width: 100vw;
   /* perspective: 800px; */
 }
 
@@ -427,10 +428,11 @@ video {
   }
 
   #footer {
-    height: 50vh;
+    height: 80vh;
     flex-direction: column;
     padding-bottom: 0px;
     padding-top: 0px;
+    align-items: center;
   }
 
   #footer>img {
@@ -442,11 +444,16 @@ video {
     color: black;
   }
 
+  #address {
+    text-align: center;
+  }
+
   #address>p {
-    font-size: 25px;
+    font-size: 20px;
     color: black;
     font-weight: 700;
     font-family: "Poppins", sans-serif;
+    text-align: center;
   }
 
   #follow>p {
@@ -465,13 +472,5 @@ video {
 
   #follow>a {
     text-decoration: none;
-  }
-
-  #address>a {
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-    font-weight: 700;
-    font-family: "Poppins", sans-serif;
   }
 }
